@@ -1,6 +1,7 @@
 //import logo from './logo.svg';
 import './App.css'; //to link App.css with this file  
 import Hello from './Hello'; 
+import Hello2 from './hello2';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         </a>
       </header> */}
       <Hello/>
+      <Hello2/>
     </div>
   );
 }
