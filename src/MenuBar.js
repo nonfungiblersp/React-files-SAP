@@ -1,14 +1,14 @@
 import React from "react";
 function MenuBar(){
     return(
-        <div>
+        <nav className="menubar">
             <ul>
                 <li>Home</li>
                 <li>Category</li>
                 <li>Privacy</li>
                 <li>Contect</li>
             </ul>
-        </div>
+        </nav>
     )
 }
 export default MenuBar;
