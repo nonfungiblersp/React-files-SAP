@@ -1,14 +1,15 @@
 import React from "react";
-function MenuBar(){
-    return(
-        <nav className="menubar">
-            <ul>
-                <li>Home</li>
-                <li>Category</li>
-                <li>Privacy</li>
-                <li>Contect</li>
+import './MenuBar.css';
+function MenuBar() {
+    return (
+            <div>
+            <ul className="listul">
+                <li className="listitems"><a href="">Home</a></li>
+                <li className="listitems"><a href="">News</a></li>
+                <li className="listitems"><a href="">About</a></li>
+                <li className="listitems"><a href="">Contact</a></li>
             </ul>
-        </nav>
+        </div>
     )
 }
 export default MenuBar;
